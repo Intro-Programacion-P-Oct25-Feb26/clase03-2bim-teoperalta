@@ -28,8 +28,10 @@ public class Ejemplo02 {
                
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
+                if (arreglo1[fila][col]>0){
                 System.out.printf("fila[%d] columna[%d] = %d\n", 
                         fila, col, arreglo1[fila][col]);
+                }
             }
         }
         
