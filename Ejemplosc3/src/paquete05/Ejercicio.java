@@ -49,12 +49,13 @@ public class Ejercicio {
         System.out.println("Estación");
 
         for (int i = 0; i < 5; i++) {
-            System.out.println(nombres[i] + "Estación "+ m +
+            System.out.println(nombres[i] + " " + "Estación "+ m +
                     " - Total Producción: $ " + totales[i]);
             m = m + 1;
         }
 
-        System.out.printf("\nEstación más productiva: %s\nEncargado de la estación:"
+        System.out.printf("\nEstación más productiva: %s Estación\n"
+                + "Encargado de la estación:"
                 + " %s\nCantidad de la estación más productiva: $ %.2f\n",
                 nombres[indice], nombres[indice], produccionTotal);
     }
